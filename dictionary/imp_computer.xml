@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Computer" max_length="40" name="imp_computer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ola_name" max_length="40" name="u_ola_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ola_short_description" max_length="40" name="u_ola_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ola_status" max_length="40" name="u_ola_status" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="OLACatalog" max_length="40" name="x_58872_needit_olacatalog" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="OLA Name" mandatory="true" max_length="500" name="ola_name" type="string"/>
+        <element label="OLA Short Description" max_length="2000" name="ola_short_description" type="string"/>
+        <element choice="1" label="OLA Status" max_length="50" name="ola_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="Active"/>
+                <element inactive_on_update="false" label="Inactive" value="Inactive"/>
+            </choice>
+        </element>
+    </element>
+</database>
